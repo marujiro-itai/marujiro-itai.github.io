@@ -135,6 +135,25 @@ body {
     font-style: italic;
 }
 
+#content-area img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    display: block;
+}
+
+#content-area img + em {
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
 #content-area table {
     width: 100%;
     border-collapse: collapse;
