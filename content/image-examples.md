@@ -4,16 +4,21 @@
 
 ## 📸 スクリーンショットの例
 
-以下は、GitHub Pages設定画面のスクリーンショット例です：
+以下は、実際にアップロードされた画像の表示例です：
 
-![GitHub Pages設定例](images/screenshots/sample-screenshot.png)
-*図1: GitHub Pages の設定画面例*
+![アップロードされたサンプル画像](images/screenshots/sample.png)
+*図1: アップロードされたsample.png画像*
+
+SVGで作成したサイト例：
+
+![GitHub Pages サイト例](images/screenshots/sample-site.svg)
+*図2: GitHub Pages で作成したサイトの例*
 
 ## 📊 図表の例
 
 システム構成図の例：
 
-![システム構成図](images/diagrams/sample-diagram.png)
+![システム構成図](images/diagrams/system-overview.svg)
 *図2: マークダウンサイトのシステム構成*
 
 ## 🎨 様々な画像フォーマット
