@@ -4,6 +4,7 @@ const markdownFiles = [
     { name: '概要', file: 'overview.md' },
     { name: 'ガイド', file: 'guide.md' },
     { name: 'チュートリアル', file: 'tutorial.md' },
+    { name: 'コンテンツ運用', file: 'content-management.md' },
     { name: 'API', file: 'api.md' },
     { name: 'FAQ', file: 'faq.md' }
 ];
