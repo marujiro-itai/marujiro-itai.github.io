@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design System Documentation</title>
+    <title>Design Guideline</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <header class="header">
         <div class="header-content">
-            <div class="logo">
-                <h1>Design System</h1>
+            <div class="logo-section">
+                <div class="logo">openLogi</div>
+                <div class="title">Design Guideline</div>
             </div>
             <nav class="header-nav">
                 <ul>
@@ -22,18 +23,30 @@
     </header>
     
     <div class="main-container">
-        <aside class="sidebar">
-            <nav id="sidebar-nav">
-                <!-- サイドナビゲーションはJavaScriptで動的に追加されます -->
-            </nav>
+        <aside class="sidebar left-sidebar">
+            <div class="sidebar-section">
+                <h3 class="section-title">Style</h3>
+                <nav id="style-nav">
+                    <!-- Styleナビゲーション -->
+                </nav>
+            </div>
         </aside>
         
         <main class="content">
             <div id="content-area">
                 <h1>Design System Documentation へようこそ</h1>
-                <p>上部のナビゲーションからセクションを選択し、左側のナビゲーションからコンテンツを選択してください。</p>
+                <p>上部のナビゲーションからセクションを選択し、左右のナビゲーションからコンテンツを選択してください。</p>
             </div>
         </main>
+        
+        <aside class="sidebar right-sidebar">
+            <div class="sidebar-section">
+                <h3 class="section-title">Component</h3>
+                <nav id="component-nav">
+                    <!-- Componentナビゲーション -->
+                </nav>
+            </div>
+        </aside>
     </div>
     
     <script src="app.js"></script>
